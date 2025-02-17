@@ -156,6 +156,10 @@ body {
     -ms-border-radius: 10px 10px 0px 10px;
     -o-border-radius: 10px 10px 0px 10px;
     align-self: self-end;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 .message--other {
@@ -167,6 +171,10 @@ body {
     -ms-border-radius: 0px 10px 10px 10px;
     -o-border-radius: 0px 10px 10px 10px;
     align-self: self-start;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 .message--sender {
