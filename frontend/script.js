@@ -8,12 +8,15 @@ const chatInput = document.querySelector(".chat__input")
 const chatMessages = document.querySelector(".chat__messages")
 
 const colors = [
+    "aqua",
     "cadetblue",
+    "blueviolet",
     "darkgoldenrod",
     "cornflowerblue",
     "darkkhaki",
     "hotpink",
-    "gold"
+    "gold",
+    "navy"
 ]
 
 const user = { id: "", name: "", color: "" }
